@@ -2,10 +2,6 @@ importScripts('/_nuxt/workbox.4c4f5ca6.js')
 
 workbox.precaching.precacheAndRoute([
   {
-    "url": "/_nuxt/0d1ecf5c48eb78501c40.js",
-    "revision": "9bcae2d95874c4abf445482f1d1ed110"
-  },
-  {
     "url": "/_nuxt/1f8f3cd327e7cef6cfcd.css",
     "revision": "86de8653a429c78c4e233ecf471a02f6"
   },
@@ -26,6 +22,10 @@ workbox.precaching.precacheAndRoute([
     "revision": "388bc85335cb69c94e74e22d200c92c9"
   },
   {
+    "url": "/_nuxt/c698cb6a74bc863ad097.js",
+    "revision": "f98bd0153ba81d9e309000fcbe18615f"
+  },
+  {
     "url": "/_nuxt/e0e0bd63ef27e6c63078.js",
     "revision": "0ff295cab468eb87b1a589fb0bc596c1"
   },
@@ -44,10 +44,8 @@ workbox.skipWaiting()
 
 workbox.googleAnalytics.initialize()
 
-
 workbox.routing.registerRoute(new RegExp('/_nuxt/.*'), workbox.strategies.cacheFirst({}), 'GET')
 workbox.routing.registerRoute(new RegExp('/portfolio/.*'), workbox.strategies.cacheFirst({"cacheName":"portafolio","cacheExpiration":{"maxEntries":10000,"maxAgeSeconds":2592000}}), 'GET')
 workbox.routing.registerRoute(new RegExp('/^https://fonts.(?:googleapis|gstatic).com/(.*)/'), workbox.strategies.cacheFirst({"cacheName":"cuando-rindo-font-vuetify","cacheExpiration":{"maxEntries":10000,"maxAgeSeconds":31536000}}), 'GET')
 workbox.routing.registerRoute(new RegExp('https://use.fontawesome.com/.*'), workbox.strategies.cacheFirst({"cacheName":"cuando-rindo-font-awesome","cacheExpiration":{"maxEntries":10000,"maxAgeSeconds":31536000}}), 'GET')
 workbox.routing.registerRoute(new RegExp('/.*'), workbox.strategies.networkFirst({}), 'GET')
-
