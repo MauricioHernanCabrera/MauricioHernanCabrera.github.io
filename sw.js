@@ -22,16 +22,16 @@ workbox.precaching.precacheAndRoute([
     "revision": "8597668ef850dc7dd10263e98924c8f8"
   },
   {
-    "url": "/_nuxt/7e268891eccb22881131.js",
-    "revision": "185337ba8554bae44e4fda97e8376570"
-  },
-  {
     "url": "/_nuxt/88bd442e9d15cf648f3e.css",
     "revision": "f8828cec8c6571e8b6bfb6849350e902"
   },
   {
     "url": "/_nuxt/8e2f55db9566696ed0ef.css",
     "revision": "f4f25e64eb1bfb43aea503fe930f85fb"
+  },
+  {
+    "url": "/_nuxt/b5ce488ba7be9be96262.js",
+    "revision": "c4ed85b38f54fb67b8fcb309ef8336e4"
   }
 ], {
   "cacheId": "mauriciohernancabrera",
