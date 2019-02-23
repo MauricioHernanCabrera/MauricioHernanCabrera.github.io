@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "Instagram",
+    "link": "https://www.instagram.com/hernanmauriciocabrera/",
+    "icon": "fab fa-instagram",
+    "isDisabled": false,
+    "isBlank": true
+  },
+  {
+    "id": 3,
+    "name": "Facebook",
+    "link": "https://www.facebook.com/mauriciohernancabrera",
+    "icon": "fab fa-facebook-f",
+    "isDisabled": false,
+    "isBlank": true
+  },
+  {
+    "id": 5,
+    "name": "Twitter",
+    "link": "https://twitter.com/hernanmc06",
+    "icon": "fab fa-twitter",
+    "isDisabled": false,
+    "isBlank": true
+  },
+  {
+    "id": 7,
+    "name": "Github",
+    "link": "https://github.com/MauricioHernanCabrera",
+    "icon": "fab fa-github",
+    "isDisabled": false,
+    "isBlank": true
+  },
+  {
+    "id": 11,
+    "name": "Gmail",
+    "link": "mailto:mauriciohernancabrera@gmail.com",
+    "icon": "fas fa-envelope",
+    "isDisabled": false,
+    "isBlank": false
+  },
+  {
+    "id": 12,
+    "name": "Linkedin",
+    "link": "https://www.linkedin.com/in/mauricio-hernan-cabrera-875a03170/",
+    "icon": "fab fa-linkedin-in",
+    "isDisabled": false,
+    "isBlank": true
+  }
+]
